@@ -50,7 +50,8 @@ int main() {
         pop eax;
     }
     printf("y = %d", y);
-    printf("\nf1 = %d, f2 = %d", (a - b + c / d * e), ((a + b + c) / d * e));
+    printf("\nf1 = %d\n", (a - b + c / d * e));
+    printf("f2 = %d", ((a + b + c) / d * e)); //Перенесли строку с объевлением перерменной
 
     return 0;
 }
