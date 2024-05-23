@@ -8,7 +8,7 @@
 int main() {
 
 
-    int a, b, c, d, e, y;
+    int al, bl, cl, dl, el, yl;
     puts("Введите значения для: a, b, c, d, e: ");
     scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
     //(b<c)or(d<=e)
